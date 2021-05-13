@@ -1,0 +1,23 @@
+{
+  "name": "webpack_startup",
+  "version": "1.0.0",
+  "description": "webpack_startup",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "vincent",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^5.2.4",
+    "html-webpack-plugin": "^5.3.1",
+    "style-loader": "^2.0.0",
+    "vue": "^2.6.12",
+    "vue-loader": "^15.9.7",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^5.37.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
