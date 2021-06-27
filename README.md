@@ -1,3 +1,18 @@
+## webpack常用配置
+- `style-loader`  把css代码写入到网页中
+- `css-loader`  读取css的代码
+- `less-loader`  解释编译less代码
+- `extract-text-webpack-plugin`  提取css
+- `file-loader`	 处理图片文件返回链接
+- `html-webpack-plugin`  自动引入打包后的资源文件到html文件，该插件需要指定一个html模板文件
+- `clean-webpack-plugin `  在每次打包前清除下dist文件夹
+- `source-map`  生成映射源代码文件
+- `webpack-dev-server`  webpack 提供了一个简单的开发服务器
+- `webpack-merge`  可以把公共部分的配置抽离出来放到一个独立的文件然后进行合并，我们可以使用webpack-merge工具来进行合并
+- `CommonsChunkPlugin `  把类似公共的依赖模块提取到一个单独的文件中 
+
+***
+
 ## 从零开始用webpack配置vue项目的实践思路
 
 * 新建任意文件夹
