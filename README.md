@@ -10,6 +10,11 @@
 - `webpack-dev-server`  webpack 提供了一个简单的开发服务器
 - `webpack-merge`  可以把公共部分的配置抽离出来放到一个独立的文件然后进行合并，我们可以使用webpack-merge工具来进行合并
 - `CommonsChunkPlugin `  把类似公共的依赖模块提取到一个单独的文件中 
+- `optimization.minimize`  代码压缩
+- `optimization.splitChunks`  代码分割
+- `externals`  用cdn方式引入
+- `compression-webpack-plugin`  gzip的压缩
+- `uglifyjs-webpack-plugin`  移除console
 
 ***
 
